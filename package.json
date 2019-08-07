@@ -1,0 +1,45 @@
+{
+  "name": "@dblk/configloader",
+  "version": "1.0.3",
+  "description": "Handle read/write of recordset for CICP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "plugin": {
+    "consumes": [
+      "autopilot",
+      "recorder"
+    ],
+    "provides": [
+      "configLoader"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dblk/configLoader"
+  },
+  "homepage": "https://github.com/dblk/configLoader#readme",
+  "keywords": [
+    "cicp",
+    "config",
+    "loader",
+    "yamp"
+  ],
+  "dependencies": {
+    "debug": "^4.1.1",
+    "mime-types": "^2.1.23"
+  },
+  "devDependencies": {
+    "eslint": "4.17.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.8.0"
+  },
+  "author": {
+    "name": "Remy Boulanouar",
+    "email": "admin@dblk.org"
+  },
+  "license": "MIT"
+}
